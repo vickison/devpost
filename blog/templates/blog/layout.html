@@ -1,0 +1,21 @@
+{% load static %} 
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <title>
+            {% block title %}{% endblock %}
+        </title> 
+        <link href="{% static "css/blog.css" %}" rel="stylesheet"> 
+    </head> 
+    <body> 
+        <div id="content"> 
+            {% block content %} {% endblock %} 
+        </div> 
+        <div id="sidebar"> 
+            <h2>DevPost</h2> 
+            <p>Learn more about development with DevPost.</p> 
+        </div> 
+    </body> 
+</html>

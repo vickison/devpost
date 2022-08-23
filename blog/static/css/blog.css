@@ -1,0 +1,75 @@
+body{
+    background: rgb(49, 48, 47);
+    color: white;
+}
+
+#content{
+    float: left;
+    width: 60%;
+    padding: 0 0 0 30px;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(230, 114, 6);
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    padding: 0 0 10px 0;
+}
+
+a{
+    color: rgb(27, 148, 3);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(46, 255, 5);
+    text-decoration: none;
+}
+
+#date{
+    color: rgb(252, 165, 125);
+    font-size: 12px;
+    font-style: italic;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 35px;
+    color: black ;
+    font-size: 20px;
+}
+
+
+input[type=email] {
+    width: 100%;
+    height: 35px;
+    color: black ;
+    font-size: 20px;
+}
+
+textarea {
+    width: 100%;
+    color: black ;
+    font-size: 20px;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    height: 40px;
+    background-color: tomato;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: tomato;
+}
+
